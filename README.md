@@ -1,6 +1,6 @@
 # AlphaQuantum.ShadowAITools
 
-Find the AI applications your users already reach, using logs you already keep. This .NET 8 library reads an export from a DNS server, proxy or firewall, pulls out the hostnames, and returns the ones that belong to AI products, each with its category and the vendor's stance on training. It is the code-level companion to [Shadow AI discovery for IT and compliance](https://www.shadowaitools.com).
+Find the AI applications your users already reach, using logs you already keep. This .NET 8 library reads an export from a DNS server, proxy or firewall, pulls out the hostnames, and returns the ones that belong to AI products, each with its category and the vendor's stance on training. It is the code-level companion to [shadow AI discovery tools for IT and compliance](https://www.shadowaitools.com).
 
 ```bash
 dotnet add package AlphaQuantum.ShadowAITools
@@ -105,7 +105,7 @@ The EU AI Act expects organisations to know which AI systems they deploy. ISO/IE
 
 ## Data sources
 
-Findings come from the register of [20,000+ AI domains with category and risk fields](https://www.aitoolsblocklist.com). Everything the scan clears as non-AI can still be labelled with [category context for non-AI hosts](https://www.urlcategorizationdatabase.com). If some of what you find is your own automation, [controls on what copilots and agents can open](https://www.aiagentallowlist.com) are the next step.
+Findings come from the AI tool register and feed straight into an [AI AUP](https://www.aitoolsblocklist.com/ai-acceptable-use-policy.php). Everything the scan clears as non-AI can still be labelled from the [IAB categories list](https://www.urlcategorizationdatabase.com/taxonomy.php). If some of what you find is your own automation, an [AI agent allow list for enterprise copilots](https://www.aiagentallowlist.com/enterprise.php) is the next step.
 
 Prefer another stack? There is [shadowaitools-go for command-line tools](https://pkg.go.dev/github.com/explainableaixai/shadowaitools-go) and [a Python release for notebooks](https://pypi.org/project/shadowaitools/).
 
